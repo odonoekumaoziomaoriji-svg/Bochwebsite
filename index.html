@@ -1,0 +1,2667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Boch Systems | Home</title>
+  <meta content="Bochsystems pioneers cutting-edge solutions, safeguarding digital landscapes against evolving threats. With innovative strategies and robust defenses, we ensure ironclad protection, empowering clients to navigate the digital world securely." name="description">
+  <meta content="cyber-security, lagos, IT, information-technology, hacking, firewall, best cyber security, nigeria" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <script src="https://kit.fontawesome.com/415c24ccb1.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Custom CSS for Modern Hero -->
+  <style>
+    /* Remove dark overlay */
+    #hero .carousel-item::before {
+      content: none !important;
+      background: none !important;
+    }
+    
+    .carousel-item {
+      background-blend-mode: normal !important;
+    }
+
+    /* Hero Modern Content */
+    .hero-modern-content {
+      max-width: 800px;
+      padding: 60px 0;
+    }
+
+    .hero-title {
+      font-size: 58px;
+      font-weight: 700;
+      color: #000000 !important;
+      line-height: 1.1;
+      margin-bottom: 20px;
+      text-shadow: none !important;
+    }
+
+    .hero-title span {
+      color: #CF3A3A !important;
+      display: inline-block;
+    }
+
+    .hero-subtitle {
+      font-size: 20px;
+      color: #000000 !important;
+      line-height: 1.6;
+      margin-bottom: 35px;
+      max-width: 600px;
+      text-shadow: none !important;
+      font-weight: 600 !important;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .btn-hero-primary {
+      display: inline-block;
+      padding: 16px 40px;
+      background: #CF3A3A;
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 16px;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 25px rgba(207, 58, 58, 0.4);
+    }
+
+    .btn-hero-primary:hover {
+      background: #b03030;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 35px rgba(207, 58, 58, 0.5);
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    .btn-hero-secondary {
+      display: inline-block;
+      padding: 16px 40px;
+      background: transparent;
+      color: #000000 !important;
+      font-weight: 600;
+      font-size: 16px;
+      border-radius: 50px;
+      text-decoration: none;
+      border: 2px solid rgba(0,0,0,0.5);
+      transition: all 0.3s ease;
+    }
+
+    .btn-hero-secondary:hover {
+      background: rgba(0,0,0,0.05);
+      border-color: #000000;
+      transform: translateY(-3px);
+      color: #000000 !important;
+      text-decoration: none;
+    }
+
+    /* Hero Stats - No dark fade */
+    .hero-stats {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(255,255,255,0.95);
+      padding: 40px 0 30px;
+      z-index: 10;
+      border-top: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .stat-item {
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .stat-number {
+      font-size: 42px;
+      font-weight: 700;
+      color: #CF3A3A !important;
+      line-height: 1.2;
+      font-family: 'Raleway', sans-serif;
+    }
+
+    .stat-label {
+      font-size: 14px;
+      color: #000000 !important;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 5px;
+    }
+
+    /* Carousel Controls */
+    #hero .carousel-control-prev,
+    #hero .carousel-control-next {
+      width: 50px;
+      height: 50px;
+      background: rgba(0,0,0,0.1);
+      border-radius: 50%;
+      top: 50%;
+      transform: translateY(-50%);
+      opacity: 0.7;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(5px);
+    }
+
+    #hero .carousel-control-prev:hover,
+    #hero .carousel-control-next:hover {
+      background: rgba(0,0,0,0.2);
+      opacity: 1;
+    }
+
+    #hero .carousel-control-prev {
+      left: 30px;
+    }
+
+    #hero .carousel-control-next {
+      right: 30px;
+    }
+
+    #hero .carousel-control-prev-icon,
+    #hero .carousel-control-next-icon {
+      font-size: 24px;
+    }
+
+    /* Carousel Indicators */
+    #hero .carousel-indicators {
+      bottom: 120px;
+    }
+
+    #hero .carousel-indicators li,
+    #hero .carousel-indicators button {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      margin: 0 6px;
+      background: rgba(0,0,0,0.5);
+      border: none;
+    }
+
+    #hero .carousel-indicators .active {
+      background: #CF3A3A;
+    }
+
+    /* Ensure all text in carousel is black */
+    .carousel-content .hero-modern-content p,
+    .carousel-content .hero-modern-content .hero-subtitle {
+      color: #000000 !important;
+      text-shadow: none !important;
+    }
+
+    /* Override any white text from main CSS */
+    #hero .carousel-content h2,
+    #hero .carousel-content p,
+    #hero .carousel-content .omo {
+      color: #000000 !important;
+      text-shadow: none !important;
+    }
+
+    /* ===== Mission & Vision Cards Styling ===== */
+    .solutions .icon-box {
+      border: 2px solid #CF3A3A !important;
+      border-radius: 15px !important;
+      padding: 30px 25px !important;
+      transition: all 0.3s ease !important;
+      background: #ffffff !important;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.05) !important;
+      margin-bottom: 30px !important;
+    }
+
+    .solutions .icon-box:hover {
+      transform: translateY(-8px) !important;
+      box-shadow: 0 15px 40px rgba(207, 58, 58, 0.15) !important;
+      border-color: #CF3A3A !important;
+    }
+
+    .solutions .icon-box .icon {
+      width: 70px !important;
+      height: 70px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      background: rgba(207, 58, 58, 0.1) !important;
+      border-radius: 50% !important;
+      margin: 0 auto 20px !important;
+      font-size: 30px !important;
+      color: #CF3A3A !important;
+      transition: all 0.3s ease !important;
+    }
+
+    .solutions .icon-box:hover .icon {
+      background: #CF3A3A !important;
+      color: #ffffff !important;
+      transform: scale(1.05) !important;
+    }
+
+    .solutions .icon-box .title {
+      font-size: 22px !important;
+      font-weight: 700 !important;
+      color: #000000 !important;
+      margin-bottom: 12px !important;
+    }
+
+    .solutions .icon-box .description {
+      font-size: 15px !important;
+      color: #555555 !important;
+      line-height: 1.7 !important;
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+      .hero-title {
+        font-size: 42px;
+      }
+      
+      .hero-subtitle {
+        font-size: 18px;
+      }
+      
+      .stat-number {
+        font-size: 32px;
+      }
+
+      .hero-stats {
+        padding: 25px 0 20px;
+      }
+
+      #hero .carousel-indicators {
+        bottom: 100px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .hero-title {
+        font-size: 32px;
+      }
+      
+      .hero-subtitle {
+        font-size: 16px;
+      }
+      
+      .btn-hero-primary,
+      .btn-hero-secondary {
+        padding: 12px 25px;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+      }
+      
+      .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .hero-modern-content {
+        padding: 30px 0;
+      }
+
+      .stat-number {
+        font-size: 26px;
+      }
+      
+      .stat-label {
+        font-size: 11px;
+      }
+
+      .hero-stats {
+        padding: 15px 0 10px;
+      }
+
+      #hero .carousel-control-prev,
+      #hero .carousel-control-next {
+        width: 35px;
+        height: 35px;
+      }
+
+      #hero .carousel-control-prev {
+        left: 10px;
+      }
+
+      #hero .carousel-control-next {
+        right: 10px;
+      }
+
+      #hero .carousel-indicators {
+        bottom: 80px;
+      }
+
+      #hero .carousel-indicators li,
+      #hero .carousel-indicators button {
+        width: 8px;
+        height: 8px;
+        margin: 0 4px;
+      }
+
+      .solutions .icon-box {
+        padding: 20px 15px !important;
+      }
+
+      .solutions .icon-box .title {
+        font-size: 18px !important;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .hero-title {
+        font-size: 26px;
+      }
+      
+      .hero-subtitle {
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+
+      .stat-number {
+        font-size: 22px;
+      }
+      
+      .stat-label {
+        font-size: 10px;
+        letter-spacing: 0.5px;
+      }
+
+      .hero-stats {
+        padding: 10px 0 5px;
+      }
+
+      #hero .carousel-indicators {
+        bottom: 70px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">info@bochsystems.net</a>
+        <i class="bi bi-phone-fill phone-icon"></i> 08021200006
+      </div>
+      <div class="social-links d-none d-md-block">
+        <a href="https://m.facebook.com/BOCHSYS/" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://instagram.com/boch.systems?igshid=YTQwZjQ0NmI0OA==" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/boch-systems-company-limited/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo me-auto">
+        <a href="index.html"><img src="assets/img/Boch-Logo.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li class="dropdown"><a href="#about"><span>Our Company</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="nav-link scrollto" href="About us.html">About Us</a></li>
+              <li><a class="nav-link scrollto" href="#portfolio">Events</a></li>
+              <li><a class="nav-link" href="Leadership.html">Our Leaders</a></li>
+              <li><a href="./clients.html">Our Clients</a></li>
+              <li><a href="./partners.html">Partners</a></li>
+              <li><a href="./Awards.html">Awards</a></li>
+
+              <li><a href="./job-listings.html">Career</a></li>
+              <li><a href="#">Boch Academy</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Our Expertise</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href="#"><span>Cybersecurity</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="./cybersecurity-advisory.html">Cybersecurity Advisory</a></li>
+                  <li><a href="./cybersecurity-engineering.html">Cybersecurity Engineering</a></li>
+                  <li><a href="./cybersecurity-assurance.html">Cybersecurity Assurance</a></li>
+                  <li><a href="./cybersecurity-training.html">Cybersecurity Training</a></li>
+                  <li><a href="./network-security.html">Network Security</a></li>
+                  <li><a href="./application-security.html">Application Security</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Digital Transformation</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="./business-productivity.html">Business Productivity & Performance</a></li>
+                  <li><a href="./infrastructure.html">Infrastructure</a></li>
+                  <li><a href="./data-science&analytics.html">Data Science & Analytics</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero-modern">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url('assets/img/slide/BochT22-copy.JPG');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <div class="hero-modern-content">
+                  <h1 class="hero-title animate__animated animate__fadeInDown">
+                    Securing Today.<br>
+                    <span>Protecting Tomorrow.</span>
+                  </h1>
+                  <p class="hero-subtitle animate__animated animate__fadeInUp" style="color: #000000 !important;">
+                    BOCH SYSTEMS delivers intelligent cybersecurity solutions that protect what matters most.
+                  </p>
+                  <div class="hero-buttons animate__animated animate__fadeInUp animate__delay-1s">
+                    <a href="#contact" class="btn-hero-primary">Book a Consultation</a>
+                    <a href="#services" class="btn-hero-secondary">Explore Solutions</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url('assets/img/slide/tech-buildings.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <div class="hero-modern-content">
+                  <h1 class="hero-title animate__animated animate__fadeInDown">
+                    Empowering Your<br>
+                    <span>Digital Defences</span>
+                  </h1>
+                  <p class="hero-subtitle animate__animated animate__fadeInUp" style="color: #000000 !important;">
+                    Founded in 2006, our business is built on Trust, Experience and Dedication with a proven track record spanning 15+ years.
+                  </p>
+                  <div class="hero-buttons animate__animated animate__fadeInUp animate__delay-1s">
+                    <a href="#contact" class="btn-hero-primary">Book a Consultation</a>
+                    <a href="#services" class="btn-hero-secondary">Explore Solutions</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url('assets/img/slide/technology-connection-online-networking-medias-conpt.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <div class="hero-modern-content">
+                  <h1 class="hero-title animate__animated animate__fadeInDown">
+                    Innovative Solutions<br>
+                    <span>For Cyber Resilience</span>
+                  </h1>
+                  <p class="hero-subtitle animate__animated animate__fadeInUp" style="color: #000000 !important;">
+                    We offer advisory services on cybersecurity framework, posture, roadmap, and Maturity Model Assessment to help organizations become 100% secure.
+                  </p>
+                  <div class="hero-buttons animate__animated animate__fadeInUp animate__delay-1s">
+                    <a href="#contact" class="btn-hero-primary">Book a Consultation</a>
+                    <a href="#services" class="btn-hero-secondary">Explore Solutions</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+
+      
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Solutions Section (Mission & Vision Cards) ======= -->
+
+    
+    <!-- ======= Mission, Vision, Values Section (Grid Design like About section) ======= -->
+<section id="services" class="services mission-vision-section">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title" data-aos="fade-up">
+      <div class="eyebrow">
+        <span>Our Principles</span>
+        <div class="underline"></div>
+      </div>
+      <h2><span class="brand-name">Bochsystems</span></h2>
+      <p>Our core principles guide us in delivering excellence in cybersecurity</p>
+    </div>
+
+    <div class="mission-grid">
+      <!-- Card 1: Mission -->
+      <div class="mission-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="card-number">01</div>
+        <div class="icon-wrapper">
+          <div class="icon"><i class="bi bi-globe"></i></div>
+        </div>
+        <h4 class="title">Our Mission</h4>
+        <div class="card-line"></div>
+        <p class="description">To deliver seamless, proactive technology advancement to the connected world.</p>
+        <div class="card-arrow">
+          <i class="bi bi-arrow-right"></i>
+        </div>
+      </div>
+
+      <!-- Card 2: Vision -->
+      <div class="mission-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="card-number">02</div>
+        <div class="icon-wrapper">
+          <div class="icon"><i class="bi bi-lightbulb"></i></div>
+        </div>
+        <h4 class="title">Our Vision</h4>
+        <div class="card-line"></div>
+        <p class="description">To become the number 1 Information Availability company in Africa.</p>
+        <div class="card-arrow">
+          <i class="bi bi-arrow-right"></i>
+        </div>
+      </div>
+
+      <!-- Card 3: Values -->
+      <div class="mission-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="card-number">03</div>
+        <div class="icon-wrapper">
+          <div class="icon"><i class="bi bi-heart"></i></div>
+        </div>
+        <h4 class="title">Our Values</h4>
+        <div class="card-line"></div>
+        <p class="description">Integrity, Innovation, and Excellence in everything we do.</p>
+        <div class="card-arrow">
+          <i class="bi bi-arrow-right"></i>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End Mission, Vision, Values Section -->
+
+    
+   
+    
+
+    <!-- ======= Services Section ======= -->
+<section id="services" class="services why-choose-section">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title why-choose-title" data-aos="fade-up">
+      <h2>Why Choose BochSystems</h2>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6" data-aos="fade-up">
+        <div class="icon-box service-card">
+          <div class="icon"><i class="bi bi-chat-fill"></i></div>
+          <h4 class="title">Consultancy</h4>
+          <p class="description">
+            Boch Systems creates solutions for leading organizations in all sectors of industry, commerce and government. We work with our customers to identify and create better ways of doing business from optimizing existing tools.
+          </p>
+        </div>
+      </div>
+
+       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="icon-box service-card">
+          <div class="icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
+          <h4 class="title">Reliability and Dependability</h4>
+          <p class="description">
+            We work with our customers to identify and create better ways of doing business from optimizing existing tools and resources to realizing revolutionary processes.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="icon-box service-card">
+          <div class="icon"><i class="bi bi-phone-fill"></i></div>
+          <h4 class="title">Legendary Client Service</h4>
+          <p class="description">
+            As a company, we have a goal to have client service that is not just the best but legendary and sets a pace for other growing companies to follow.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+ <!-- ======= Clients Section ======= -->
+<section id="clients" class="clients">
+  <div class="container" data-aos="zoom-out">
+
+    <h2 class="clients-header">Our Clients</h2>
+
+    <div class="clients-slider swiper">
+      <div class="swiper-wrapper align-items-center">
+        <div class="swiper-slide"><div class="client-card"><img src="assets/img/clients/Access.png" class="img-fluid" alt=""></div></div>
+        <div class="swiper-slide"><div class="client-card"><img src="assets/img/clients/Cbn.png" class="img-fluid" alt=""></div></div>
+        <div class="swiper-slide"><div class="client-card"><img src="assets/img/clients/Fidelity.png" class="img-fluid" alt=""></div></div>
+        <div class="swiper-slide"><div class="client-card"><img src="assets/img/clients/Accion.png" class="img-fluid" alt=""></div></div>
+        <div class="swiper-slide"><div class="client-card"><img src="assets/img/clients/Fsdh.png" class="img-fluid" alt=""></div></div>
+        <div class="swiper-slide"><div class="client-card"><img src="assets/img/clients/Kuda.png" class="img-fluid" alt=""></div></div>
+        <div class="swiper-slide"><div class="client-card"><img src="assets/img/clients/Stanbic.png" class="img-fluid" alt=""></div></div>
+        <div class="swiper-slide"><div class="client-card"><img src="assets/img/clients/Zenith.png" class="img-fluid" alt=""></div></div>
+        <div class="swiper-slide"><div class="client-card"><img src="assets/img/clients/nimc (1).png" class="img-fluid" alt=""></div></div>
+        <div class="swiper-slide"><div class="client-card"><img src="assets/img/clients/ferma-logo.jpg" class="img-fluid" alt=""></div></div>
+        <div class="swiper-slide"><div class="client-card"><img src="assets/img/clients/nspmc.png" class="img-fluid" alt=""></div></div>
+        <div class="swiper-slide"><div class="client-card"><img src="assets/img/clients/Veritas.png" class="img-fluid" alt=""></div></div>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End Clients Section -->
+
+
+<!-- ==========================
+     CLIENT TESTIMONIALS
+========================== -->
+
+<section class="testimonials">
+
+    <div class="container">
+
+        <div class="section-title">
+            <span>CLIENT REVIEWS</span>
+            <h2>What Our Clients Say</h2>
+            <p>
+                Trusted by businesses across Africa. Here's what our customers
+                have to say about working with us.
+            </p>
+        </div>
+
+        <div class="testimonial-slider">
+
+            <div class="testimonial-track">
+
+                <!-- Card 1 -->
+
+                <div class="testimonial-card">
+
+                    <div class="quote">“</div>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatibus molestiae quisquam, inventore neque
+                        laboriosam expedita.
+                    </p>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <div class="client">
+
+                        <h4>John Doe</h4>
+
+                        <span>IT Manager</span>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 2 -->
+
+                <div class="testimonial-card">
+
+                    <div class="quote">“</div>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Tempora eaque quia maxime expedita sint porro.
+                    </p>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <div class="client">
+
+                        <h4>Jane Smith</h4>
+
+                        <span>CEO</span>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 3 -->
+
+                <div class="testimonial-card">
+
+                    <div class="quote">“</div>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Vel accusantium deserunt facere autem quis recusandae.
+                    </p>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <div class="client">
+
+                        <h4>Michael Brown</h4>
+
+                        <span>Operations Director</span>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 4 -->
+
+                <div class="testimonial-card">
+
+                    <div class="quote">“</div>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolores rerum laborum vero reprehenderit officiis.
+                    </p>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <div class="client">
+
+                        <h4>Sarah Johnson</h4>
+
+                        <span>CTO</span>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 5 -->
+
+                <div class="testimonial-card">
+
+                    <div class="quote">“</div>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestias porro illum rem temporibus atque.
+                    </p>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <div class="client">
+
+                        <h4>David Wilson</h4>
+
+                        <span>Business Owner</span>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 6 -->
+
+                <div class="testimonial-card">
+
+                    <div class="quote">“</div>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Magnam necessitatibus cumque expedita minima.
+                    </p>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <div class="client">
+
+                        <h4>Emily Clark</h4>
+
+                        <span>Project Lead</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+    
+
+    <!-- End About Us Section -->
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About · BochSystems</title>
+  <style>
+    /* ----- ROOT (same brand palette) ----- */
+    :root {
+      --brand: #cf3a3a;
+      --brand-dark: #a82c2c;
+      --ink: #1a1d24;
+      --muted: #6b7280;
+      --bg-soft: #fdeef0;
+      --bg-softer: #fff6f6;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: var(--bg-softer);
+      line-height: 1.5;
+    }
+
+    /* ----- section (partners style as base) ----- */
+    .about-boch {
+      position: relative;
+      overflow: hidden;
+      padding: 100px 6vw 80px;
+      background:
+        radial-gradient(circle at 90% 90%, rgba(207,58,58,0.06), transparent 40%),
+        linear-gradient(180deg, var(--bg-softer) 0%, var(--bg-soft) 100%);
+    }
+
+    /* decorative hexagon grid corners (exactly from partners) */
+    .hex-pattern {
+      position: absolute;
+      width: 340px;
+      height: 340px;
+      background-image:
+        repeating-linear-gradient(60deg, rgba(207,58,58,0.10) 0, rgba(207,58,58,0.10) 1px, transparent 1px, transparent 34px),
+        repeating-linear-gradient(-60deg, rgba(207,58,58,0.10) 0, rgba(207,58,58,0.10) 1px, transparent 1px, transparent 34px),
+        repeating-linear-gradient(0deg, rgba(207,58,58,0.10) 0, rgba(207,58,58,0.10) 1px, transparent 1px, transparent 34px);
+      pointer-events: none;
+      opacity: .9;
+    }
+
+    .hex-pattern.top-left {
+      top: -60px;
+      left: -60px;
+      -webkit-mask-image: linear-gradient(135deg, #000 40%, transparent 75%);
+      mask-image: linear-gradient(135deg, #000 40%, transparent 75%);
+    }
+
+    .hex-pattern.bottom-right {
+      bottom: -80px;
+      right: -40px;
+      -webkit-mask-image: linear-gradient(-45deg, #000 40%, transparent 75%);
+      mask-image: linear-gradient(-45deg, #000 40%, transparent 75%);
+    }
+
+    .dot-field {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 260px;
+      height: 260px;
+      background-image: radial-gradient(rgba(207,58,58,0.25) 1.6px, transparent 1.6px);
+      background-size: 16px 16px;
+      -webkit-mask-image: radial-gradient(circle at 0% 100%, #000 0%, transparent 65%);
+      mask-image: radial-gradient(circle at 0% 100%, #000 0%, transparent 65%);
+      pointer-events: none;
+    }
+
+    .accent-corner {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 90px;
+      height: 90px;
+      border-top: 4px solid var(--brand);
+      border-left: 4px solid var(--brand);
+      border-radius: 0 0 90px 0;
+      opacity: .9;
+    }
+
+    /* ----- container & layout (grid) – image left, text right ----- */
+    .about-inner {
+      position: relative;
+      z-index: 2;
+      max-width: 1280px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    /* left: image (now first column) */
+    .image-wrap {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      perspective: 1000px;
+    }
+
+    .image-frame {
+      position: relative;
+      width: 100%;
+      max-width: 520px;
+      aspect-ratio: 1/1;
+      border: 6px solid var(--brand);
+      border-radius: 28px;
+      transform: rotate(3deg);
+      box-shadow: 0 30px 60px rgba(207,58,58,0.28);
+      overflow: hidden;
+      animation: floatFrame 6s ease-in-out infinite;
+      transition: transform .5s ease;
+    }
+
+    .image-frame:hover {
+      transform: rotate(0deg) scale(1.02);
+    }
+
+    .image-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* network dots overlay */
+    .network-overlay {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+    }
+
+    .network-overlay .dot {
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      background: var(--brand);
+      border-radius: 50%;
+      box-shadow: 0 0 10px 3px rgba(207,58,58,0.7);
+      animation: pulse 2.6s ease-in-out infinite;
+    }
+
+    .dot.d1 { bottom: 18%; right: 12%; animation-delay: 0s; }
+    .dot.d2 { bottom: 32%; right: 28%; animation-delay: .4s; }
+    .dot.d3 { bottom: 10%; right: 34%; animation-delay: .8s; }
+    .dot.d4 { bottom: 26%; right: 8%; animation-delay: 1.2s; width: 4px; height: 4px; }
+    .dot.d5 { bottom: 6%; right: 20%; animation-delay: 1.6s; width: 4px; height: 4px; }
+
+    /* right: text (partners-text style) */
+    .about-text {
+      position: relative;
+    }
+
+    .eyebrow {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 18px;
+    }
+
+    .eyebrow span {
+      color: var(--brand);
+      font-weight: 700;
+      letter-spacing: 3px;
+      font-size: .85rem;
+      text-transform: uppercase;
+    }
+
+    .eyebrow .underline {
+      width: 46px;
+      height: 3px;
+      background: var(--brand);
+      border-radius: 2px;
+      transform-origin: left;
+      animation: growLine .8s ease-out .2s both;
+    }
+
+    .headline {
+      font-size: clamp(2rem, 3.6vw, 3.1rem);
+      font-weight: 800;
+      line-height: 1.15;
+      color: var(--ink);
+      margin: 0 0 22px;
+    }
+
+    .headline .accent {
+      color: var(--brand);
+    }
+
+    .lead {
+      color: var(--muted);
+      font-size: 1.05rem;
+      line-height: 1.7;
+      max-width: 560px;
+      margin-bottom: 44px;
+    }
+
+    /* feature grid (2x2) – same as partners */
+    .feature-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 34px 40px;
+    }
+
+    .feature {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      opacity: 0;
+      transform: translateY(24px);
+      animation: riseIn .7s ease-out forwards;
+    }
+
+    .feature:nth-child(1) { animation-delay: .15s; }
+    .feature:nth-child(2) { animation-delay: .30s; }
+    .feature:nth-child(3) { animation-delay: .45s; }
+    .feature:nth-child(4) { animation-delay: .60s; }
+
+    .hex-icon {
+      flex: 0 0 auto;
+      width: 64px;
+      height: 64px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--white);
+      clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%);
+      box-shadow: 0 6px 18px rgba(207,58,58,0.12);
+      transition: transform .35s ease, box-shadow .35s ease;
+    }
+
+    .feature:hover .hex-icon {
+      transform: translateY(-4px) scale(1.06);
+      box-shadow: 0 12px 24px rgba(207,58,58,0.22);
+    }
+
+    .hex-icon svg {
+      width: 28px;
+      height: 28px;
+      stroke: var(--brand);
+      fill: none;
+    }
+
+    .feature-copy h3 {
+      margin: 0 0 8px;
+      font-size: 1.05rem;
+      color: var(--ink);
+      font-weight: 700;
+    }
+
+    .feature-copy .mini-line {
+      width: 24px;
+      height: 2px;
+      background: var(--brand);
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .feature-copy p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .92rem;
+      line-height: 1.6;
+    }
+
+    /* ----- pill bar (exactly partners) ----- */
+    .pill-bar {
+      max-width: 900px;
+      margin: 70px auto 0;
+      background: var(--white);
+      border-radius: 60px;
+      padding: 22px 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 26px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      position: relative;
+      z-index: 2;
+      opacity: 0;
+      animation: riseIn .8s ease-out .8s forwards;
+    }
+
+    .pill-bar .rule {
+      height: 1px;
+      width: 90px;
+      background: linear-gradient(90deg, transparent, var(--brand));
+    }
+
+    .pill-bar .rule.right {
+      background: linear-gradient(90deg, var(--brand), transparent);
+    }
+
+    .pill-bar .label {
+      font-size: .8rem;
+      letter-spacing: 2px;
+      font-weight: 700;
+      color: var(--ink);
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .pill-bar .shield {
+      width: 34px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: pulseShield 2.4s ease-in-out infinite;
+    }
+
+    .pill-bar .shield svg {
+      width: 100%;
+      height: 100%;
+      stroke: var(--brand);
+      fill: none;
+    }
+
+    /* ----- animations (same) ----- */
+    @keyframes growLine {
+      from { transform: scaleX(0); }
+      to { transform: scaleX(1); }
+    }
+
+    @keyframes riseIn {
+      from { opacity: 0; transform: translateY(24px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes floatFrame {
+      0%,100% { transform: rotate(3deg) translateY(0); }
+      50% { transform: rotate(3deg) translateY(-10px); }
+    }
+
+    @keyframes pulse {
+      0%,100% { opacity: .4; transform: scale(.8); }
+      50% { opacity: 1; transform: scale(1.3); }
+    }
+
+    @keyframes pulseShield {
+      0%,100% { transform: scale(1); }
+      50% { transform: scale(1.12); }
+    }
+
+    /* scroll-reveal helper */
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity .7s ease, transform .7s ease;
+    }
+    .reveal.in-view {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ----- RESPONSIVE (image on top for smaller screens) ----- */
+    @media (max-width: 960px) {
+      .about-inner {
+        grid-template-columns: 1fr;
+      }
+      .image-wrap {
+        order: -1;  /* image stays on top */
+        margin-bottom: 20px;
+      }
+      .feature-grid {
+        grid-template-columns: 1fr;
+      }
+      .pill-bar {
+        flex-wrap: wrap;
+        padding: 20px 26px;
+      }
+      .pill-bar .rule {
+        width: 40px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="about-boch">
+    <!-- decorative elements (same as partners) -->
+    <div class="hex-pattern top-left"></div>
+    <div class="hex-pattern bottom-right"></div>
+    <div class="dot-field"></div>
+    <div class="accent-corner"></div>
+
+    <div class="about-inner">
+      <!-- LEFT: IMAGE (now first) -->
+      <div class="image-wrap">
+        <div class="image-frame">
+          <!-- replace with actual image: assets/img/portfolio/image.png -->
+          <img src="assets/img/portfolio/image.png" alt="BochSystems team collaboration">
+          <div class="network-overlay">
+            <span class="dot d1"></span>
+            <span class="dot d2"></span>
+            <span class="dot d3"></span>
+            <span class="dot d4"></span>
+            <span class="dot d5"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: TEXT (BochSystems content) -->
+      <div class="about-text">
+        <div class="eyebrow">
+          <span>ABOUT US</span>
+          <div class="underline"></div>
+        </div>
+
+        <h2 class="headline">
+          Empowering Businesses<br>
+          <span class="accent">Through Innovative Technology</span>
+        </h2>
+
+        <p class="lead">
+          Boch Systems Limited is a leading technology solutions provider
+          committed to helping organizations accelerate digital transformation
+          through innovative cybersecurity, cloud computing, networking,
+          identity management, managed IT services, and enterprise infrastructure.
+        </p>
+
+        <!-- feature grid (exactly from partners) -->
+        <div class="feature-grid">
+          <div class="feature">
+            <div class="hex-icon">
+              <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 12l4-4 3 3 5-5 4 4"/>
+                <path d="M2 12v6h20v-6"/>
+              </svg>
+            </div>
+            <div class="feature-copy">
+              <h3>Cyber Resilience</h3>
+              <span class="mini-line"></span>
+              <p>Protect your business with next‑gen security and proactive threat intelligence.</p>
+            </div>
+          </div>
+
+          <div class="feature">
+            <div class="hex-icon">
+              <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="5"/>
+                <path d="M8 13l-2 8 6-3 6 3-2-8"/>
+              </svg>
+            </div>
+            <div class="feature-copy">
+              <h3>Cloud &amp; Infrastructure</h3>
+              <span class="mini-line"></span>
+              <p>Scalable, secure cloud solutions and robust enterprise infrastructure.</p>
+            </div>
+          </div>
+
+          <div class="feature">
+            <div class="hex-icon">
+              <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/>
+              </svg>
+            </div>
+            <div class="feature-copy">
+              <h3>Managed IT Services</h3>
+              <span class="mini-line"></span>
+              <p>End‑to‑end IT management, monitoring, and support for your business.</p>
+            </div>
+          </div>
+
+          <div class="feature">
+            <div class="hex-icon">
+              <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="8" r="3"/>
+                <circle cx="17" cy="9" r="2.5"/>
+                <path d="M3 20c0-3 3-5 6-5s6 2 6 5"/>
+                <path d="M14 15.5c2 .2 4 1.6 4 4.5"/>
+              </svg>
+            </div>
+            <div class="feature-copy">
+              <h3>Identity &amp; Access</h3>
+              <span class="mini-line"></span>
+              <p>Zero‑trust identity management and secure access for modern enterprises.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+  </section>
+
+  <!-- scroll reveal (same as partners) -->
+  <script>
+    const revealEl = document.querySelectorAll('.feature, .pill-bar');
+    const featureObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+        }
+      });
+    }, { threshold: 0.2 });
+    revealEls.forEach(el => featureObserver.observe(el));
+  </script>
+</body>
+</html>
+
+
+<title>Our Partners Section</title>
+<style>
+  :root{
+    --brand: #cf3a3a;
+    --brand-dark: #a82c2c;
+    --ink: #1a1d24;
+    --muted: #6b7280;
+    --bg-soft: #fdeef0;
+    --bg-softer: #fff6f6;
+    --white: #ffffff;
+  }
+
+  *{ box-sizing:border-box; }
+
+  body{
+    margin:0;
+    font-family:'Segoe UI', Arial, sans-serif;
+    background:var(--bg-softer);
+  }
+
+  /* ---------- SECTION WRAPPER ---------- */
+  .partners{
+    position:relative;
+    overflow:hidden;
+    padding:100px 6vw 70px;
+    background:
+      radial-gradient(circle at 90% 90%, rgba(207,58,58,0.06), transparent 40%),
+      linear-gradient(180deg, var(--bg-softer) 0%, var(--bg-soft) 100%);
+  }
+
+  /* decorative hexagon grid corners (pure CSS, no images needed) */
+  .hex-pattern{
+    position:absolute;
+    width:340px;
+    height:340px;
+    background-image:
+      repeating-linear-gradient(60deg,  rgba(207,58,58,0.10) 0, rgba(207,58,58,0.10) 1px, transparent 1px, transparent 34px),
+      repeating-linear-gradient(-60deg, rgba(207,58,58,0.10) 0, rgba(207,58,58,0.10) 1px, transparent 1px, transparent 34px),
+      repeating-linear-gradient(0deg,   rgba(207,58,58,0.10) 0, rgba(207,58,58,0.10) 1px, transparent 1px, transparent 34px);
+    pointer-events:none;
+    opacity:.9;
+  }
+  .hex-pattern.top-left{ top:-60px; left:-60px; -webkit-mask-image:linear-gradient(135deg, #000 40%, transparent 75%); mask-image:linear-gradient(135deg, #000 40%, transparent 75%); }
+  .hex-pattern.bottom-right{ bottom:-80px; right:-40px; -webkit-mask-image:linear-gradient(-45deg, #000 40%, transparent 75%); mask-image:linear-gradient(-45deg, #000 40%, transparent 75%); }
+
+  .dot-field{
+    position:absolute;
+    bottom:0; left:0;
+    width:260px; height:260px;
+    background-image: radial-gradient(rgba(207,58,58,0.25) 1.6px, transparent 1.6px);
+    background-size: 16px 16px;
+    -webkit-mask-image: radial-gradient(circle at 0% 100%, #000 0%, transparent 65%);
+    mask-image: radial-gradient(circle at 0% 100%, #000 0%, transparent 65%);
+    pointer-events:none;
+  }
+
+  .accent-corner{
+    position:absolute;
+    top:0; left:0;
+    width:90px;
+    height:90px;
+    border-top:4px solid var(--brand);
+    border-left:4px solid var(--brand);
+    border-radius:0 0 90px 0;
+    opacity:.9;
+  }
+
+  /* ---------- GRID LAYOUT ---------- */
+  .partners-inner{
+    position:relative;
+    z-index:2;
+    max-width:1280px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 1.05fr 1fr;
+    gap:60px;
+    align-items:center;
+  }
+
+  /* ---------- LEFT TEXT COLUMN ---------- */
+  .eyebrow{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    margin-bottom:18px;
+  }
+  .eyebrow span{
+    color:var(--brand);
+    font-weight:700;
+    letter-spacing:3px;
+    font-size:.85rem;
+    text-transform:uppercase;
+  }
+  .eyebrow .underline{
+    width:46px;
+    height:3px;
+    background:var(--brand);
+    border-radius:2px;
+    transform-origin:left;
+    animation: growLine .8s ease-out .2s both;
+  }
+
+  .headline{
+    font-size:clamp(2rem, 3.6vw, 3.1rem);
+    font-weight:800;
+    line-height:1.15;
+    color:var(--ink);
+    margin:0 0 22px;
+  }
+  .headline .accent{ color:var(--brand); }
+
+  .lead{
+    color:var(--muted);
+    font-size:1.05rem;
+    line-height:1.7;
+    max-width:560px;
+    margin-bottom:44px;
+  }
+
+  /* feature grid 2x2 */
+  .feature-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:34px 40px;
+  }
+
+  .feature{
+    display:flex;
+    gap:16px;
+    align-items:flex-start;
+    opacity:0;
+    transform:translateY(24px);
+    animation: riseIn .7s ease-out forwards;
+  }
+  .feature:nth-child(1){ animation-delay:.15s; }
+  .feature:nth-child(2){ animation-delay:.30s; }
+  .feature:nth-child(3){ animation-delay:.45s; }
+  .feature:nth-child(4){ animation-delay:.60s; }
+
+  .hex-icon{
+    flex:0 0 auto;
+    width:64px;
+    height:64px;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:var(--white);
+    clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%);
+    box-shadow:0 6px 18px rgba(207,58,58,0.12);
+    transition: transform .35s ease, box-shadow .35s ease;
+  }
+  .feature:hover .hex-icon{
+    transform: translateY(-4px) scale(1.06);
+    box-shadow:0 12px 24px rgba(207,58,58,0.22);
+  }
+  .hex-icon svg{ width:28px; height:28px; stroke:var(--brand); fill:none; }
+
+  .feature-copy h3{
+    margin:0 0 8px;
+    font-size:1.05rem;
+    color:var(--ink);
+    font-weight:700;
+  }
+  .feature-copy .mini-line{
+    width:24px; height:2px;
+    background:var(--brand);
+    margin-bottom:8px;
+    display:block;
+  }
+  .feature-copy p{
+    margin:0;
+    color:var(--muted);
+    font-size:.92rem;
+    line-height:1.6;
+  }
+
+  /* ---------- RIGHT IMAGE COLUMN ---------- */
+  .image-wrap{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    perspective:1000px;
+  }
+
+  .image-frame{
+    position:relative;
+    width:100%;
+    max-width:520px;
+    aspect-ratio:1/1;
+    border:6px solid var(--brand);
+    border-radius:28px;
+    transform:rotate(3deg);
+    box-shadow:0 30px 60px rgba(207,58,58,0.28);
+    overflow:hidden;
+    animation: floatFrame 6s ease-in-out infinite;
+    transition: transform .5s ease;
+  }
+  .image-frame:hover{
+    transform:rotate(0deg) scale(1.02);
+  }
+
+  /* Placeholder image content -- swap this div's background for your own image */
+  .image-placeholder{
+    width:100%;
+    height:100%;
+    background:
+      linear-gradient(135deg, rgba(207,58,58,0.15), rgba(20,20,30,0.55)),
+      linear-gradient(135deg,#3a3f52,#171923);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:14px;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+  }
+  .image-placeholder svg{ width:64px; height:64px; opacity:.85; }
+  .image-placeholder span{
+    font-size:.85rem;
+    letter-spacing:1px;
+    opacity:.8;
+    text-transform:uppercase;
+  }
+
+  /* animated network dots overlay on the image */
+  .network-overlay{
+    position:absolute;
+    inset:0;
+    pointer-events:none;
+  }
+  .network-overlay .dot{
+    position:absolute;
+    width:6px;height:6px;
+    background:var(--brand);
+    border-radius:50%;
+    box-shadow:0 0 10px 3px rgba(207,58,58,0.7);
+    animation: pulse 2.6s ease-in-out infinite;
+  }
+  .dot.d1{ bottom:18%; right:12%; animation-delay:0s; }
+  .dot.d2{ bottom:32%; right:28%; animation-delay:.4s; }
+  .dot.d3{ bottom:10%; right:34%; animation-delay:.8s; }
+  .dot.d4{ bottom:26%; right:8%;  animation-delay:1.2s; width:4px; height:4px;}
+  .dot.d5{ bottom:6%;  right:20%; animation-delay:1.6s; width:4px; height:4px;}
+
+  /* ---------- BOTTOM PILL BAR ---------- */
+  .pill-bar{
+    max-width:900px;
+    margin:70px auto 0;
+    background:var(--white);
+    border-radius:60px;
+    padding:22px 50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:26px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.05);
+    position:relative;
+    z-index:2;
+    opacity:0;
+    animation: riseIn .8s ease-out .8s forwards;
+  }
+  .pill-bar .rule{
+    height:1px;
+    width:90px;
+    background:linear-gradient(90deg, transparent, var(--brand));
+  }
+  .pill-bar .rule.right{ background:linear-gradient(90deg, var(--brand), transparent); }
+  .pill-bar .label{
+    font-size:.8rem;
+    letter-spacing:2px;
+    font-weight:700;
+    color:var(--ink);
+    text-transform:uppercase;
+    white-space:nowrap;
+  }
+  .pill-bar .shield{
+    width:34px;height:34px;
+    display:flex;align-items:center;justify-content:center;
+    animation: pulseShield 2.4s ease-in-out infinite;
+  }
+  .pill-bar .shield svg{ width:100%; height:100%; stroke:var(--brand); fill:none; }
+
+  /* ---------- KEYFRAMES ---------- */
+  @keyframes growLine{
+    from{ transform:scaleX(0); }
+    to{ transform:scaleX(1); }
+  }
+  @keyframes riseIn{
+    from{ opacity:0; transform:translateY(24px); }
+    to{ opacity:1; transform:translateY(0); }
+  }
+  @keyframes floatFrame{
+    0%,100%{ transform:rotate(3deg) translateY(0); }
+    50%{ transform:rotate(3deg) translateY(-10px); }
+  }
+  @keyframes pulse{
+    0%,100%{ opacity:.4; transform:scale(.8); }
+    50%{ opacity:1; transform:scale(1.3); }
+  }
+  @keyframes pulseShield{
+    0%,100%{ transform:scale(1); }
+    50%{ transform:scale(1.12); }
+  }
+
+  /* scroll-reveal utility (JS toggles .in-view) */
+  .reveal{ opacity:0; transform:translateY(30px); transition:opacity .7s ease, transform .7s ease; }
+  .reveal.in-view{ opacity:1; transform:translateY(0); }
+
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width: 960px){
+    .partners-inner{ grid-template-columns:1fr; }
+    .image-wrap{ order:-1; margin-bottom:20px; }
+    .feature-grid{ grid-template-columns:1fr; }
+    .pill-bar{ flex-wrap:wrap; padding:20px 26px; }
+    .pill-bar .rule{ width:40px; }
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    *, *::before, *::after{
+      animation-duration:0.001ms !important;
+      animation-iteration-count:1 !important;
+      transition-duration:0.001ms !important;
+    }
+  }
+</style>
+</head>
+<body>
+
+<section class="partners">
+  <div class="hex-pattern top-left"></div>
+  <div class="hex-pattern bottom-right"></div>
+  <div class="dot-field"></div>
+  <div class="accent-corner"></div>
+
+  <div class="partners-inner">
+
+    <!-- LEFT: TEXT CONTENT -->
+    <div class="partners-text">
+      <div class="eyebrow">
+        <span>Our Partners</span>
+        <div class="underline"></div>
+      </div>
+
+      <h2 class="headline">
+        Stronger Partnerships.<br>
+        <span class="accent">Smarter Security.</span>
+      </h2>
+
+      <p class="lead">
+        We collaborate with innovative technology leaders and trusted experts
+        to deliver world-class cybersecurity solutions that protect, empower
+        and enable our clients to stay ahead in a rapidly evolving digital world.
+      </p>
+
+      <div class="feature-grid">
+
+        <div class="feature">
+          <div class="hex-icon">
+            <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 12l4-4 3 3 5-5 4 4"/>
+              <path d="M2 12v6h20v-6"/>
+            </svg>
+          </div>
+          <div class="feature-copy">
+            <h3>Trusted Alliances</h3>
+            <span class="mini-line"></span>
+            <p>We partner with global leaders to deliver reliable and cutting-edge security solutions.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="hex-icon">
+            <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="5"/>
+              <path d="M8 13l-2 8 6-3 6 3-2-8"/>
+            </svg>
+          </div>
+          <div class="feature-copy">
+            <h3>Proven Expertise</h3>
+            <span class="mini-line"></span>
+            <p>Our partners bring deep industry knowledge and proven capabilities to every engagement.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="hex-icon">
+            <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/>
+            </svg>
+          </div>
+          <div class="feature-copy">
+            <h3>Stronger Together</h3>
+            <span class="mini-line"></span>
+            <p>By combining our strengths with our partners, we deliver greater value and better outcomes.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="hex-icon">
+            <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="9" cy="8" r="3"/>
+              <circle cx="17" cy="9" r="2.5"/>
+              <path d="M3 20c0-3 3-5 6-5s6 2 6 5"/>
+              <path d="M14 15.5c2 .2 4 1.6 4 4.5"/>
+            </svg>
+          </div>
+          <div class="feature-copy">
+            <h3>Client Success</h3>
+            <span class="mini-line"></span>
+            <p>Our partnerships are built around one goal — helping our clients achieve success and resilience.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- RIGHT: IMAGE (Replace with your own image) -->
+    <div class="image-wrap">
+      <div class="image-frame">
+        <!-- REPLACE the src attribute with your image path -->
+        <img src="assets\img\partners-page\partners.png" alt="Our Partners" style="width:100%;height:100%;object-fit:cover;">
+        <div class="network-overlay">
+          <span class="dot d1"></span>
+          <span class="dot d2"></span>
+          <span class="dot d3"></span>
+          <span class="dot d4"></span>
+          <span class="dot d5"></span>
+        </div>
+      </div>
+    </div>
+
+  
+
+</section>
+     
+
+<script>
+  // Simple scroll-reveal using IntersectionObserver
+  const revealEls = document.querySelectorAll('.feature, .pill-bar');
+  const observer = new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){
+        entry.target.classList.add('in-view');
+      }
+    });
+  }, { threshold: 0.2 });
+  revealEls.forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
+
+    
+<!-- ======= Services Section (Cards with #cf3a3a background, curved edges, scroll animation) ======= -->
+<section id="services" class="services services-red-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title" data-aos="fade-up">
+      <h2 style="color: #ffffff;">Services</h2>
+      <p style="color: rgba(255,255,255,0.85);">Empowering your business with comprehensive cybersecurity solutions.</p>
+    </div>
+
+    <div class="row g-4"> <!-- Added g-4 for consistent gap between cards -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-card-red">
+          <div class="icon"><a href="./consultancy.html"><i class="bi bi-chat-left-dots"></i></a></div>
+          <h4 class="title"><a href="./consultancy.html">Consultancy</a></h4>
+          <p class="description">We work with you to clearly understand your immediate needs and long-term goals.</p>
+          <div class="read-more"><a href="./consultancy.html">Read More →</a></div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+        <div class="service-card-red">
+          <div class="icon"><a href="./vulnerability.html"><i class="bi bi-bounding-box"></i></a></div>
+          <h4 class="title"><a href="./vulnerability.html">Vulnerability Assessment</a></h4>
+          <p class="description">Identify and assess potential weaknesses in your systems to proactively address vulnerabilities before exploitation.</p>
+          <div class="read-more"><a href="./vulnerability.html">Read More →</a></div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-card-red">
+          <div class="icon"><a href="./penetration-testing.html"><i class="bi bi-globe"></i></a></div>
+          <h4 class="title"><a href="./penetration-testing.html">Penetration Testing</a></h4>
+          <p class="description">Simulate cyber attacks to evaluate the effectiveness of existing security measures and strengthen defenses.</p>
+          <div class="read-more"><a href="./penetration-testing.html">Read More →</a></div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+        <div class="service-card-red">
+          <div class="icon"><a href="./response&recovery.html"><i class="bi bi-broadcast"></i></a></div>
+          <h4 class="title"><a href="./response&recovery.html">Incident Response & Recovery</a></h4>
+          <p class="description">Develop and implement strategies for rapid response, containment, and recovery in the event of a security breach.</p>
+          <div class="read-more"><a href="./response&recovery.html">Read More →</a></div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-card-red">
+          <div class="icon"><a href="./endpoint-security.html"><i class="bi bi-hdd-network-fill"></i></a></div>
+          <h4 class="title"><a href="./endpoint-security.html">End Point Security</a></h4>
+          <p class="description">Protect devices like computers, smartphones, and servers from malicious activities with robust endpoint security solutions.</p>
+          <div class="read-more"><a href="./endpoint-security.html">Read More →</a></div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
+        <div class="service-card-red">
+          <div class="icon"><a href="./riskcompliance.html"><i class="bi bi-gear-wide"></i></a></div>
+          <h4 class="title"><a href="./riskcompliance.html">Risk Compliance</a></h4>
+          <p class="description">Implement measures to secure infrastructure, preventing unauthorized access and ensuring data integrity.</p>
+          <div class="read-more"><a href="./riskcompliance.html">Read More →</a></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End Services Section -->
+
+<style>
+  /* ----- SERVICES RED BG SECTION (compact background) ----- */
+  .services-red-bg {
+    background: #cf3a3a !important;
+    padding: 50px 0 40px; /* reduced padding to make background closer to cards */
+  }
+
+  .services-red-bg .section-title {
+    margin-bottom: 30px; /* reduced space between title and cards */
+  }
+
+  .services-red-bg .section-title h2 {
+    color: #ffffff !important;
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+  .services-red-bg .section-title p {
+    color: rgba(255,255,255,0.85) !important;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* ----- SERVICE CARDS (white cards on red bg) ----- */
+  .service-card-red {
+    background: #ffffff;
+    border-radius: 20px !important;
+    padding: 30px 22px 25px !important;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+    transition: all 0.4s ease;
+    height: 100%;
+    border: none !important;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Ensure cards don't touch each other */
+  .services-red-bg .row {
+    --bs-gutter-x: 1.8rem; /* increased gutter */
+    --bs-gutter-y: 1.8rem;
+  }
+
+  .service-card-red::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(207,58,58,0.02), rgba(207,58,58,0.06));
+    border-radius: 20px;
+    pointer-events: none;
+  }
+
+  .service-card-red:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba(0,0,0,0.2);
+  }
+
+  .service-card-red .icon {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(207,58,58,0.10);
+    border-radius: 50%;
+    margin: 0 auto 16px;
+    font-size: 28px;
+    color: #cf3a3a;
+    transition: all 0.3s ease;
+  }
+
+  .service-card-red:hover .icon {
+    background: #cf3a3a;
+    color: #ffffff;
+    transform: scale(1.05);
+  }
+
+  .service-card-red .icon a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .service-card-red .title {
+    font-size: 19px;
+    font-weight: 700;
+    color: #1a1d24;
+    margin-bottom: 10px;
+  }
+
+  .service-card-red .title a {
+    color: #1a1d24;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .service-card-red .title a:hover {
+    color: #cf3a3a;
+  }
+
+  .service-card-red .description {
+    font-size: 14px;
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+
+  .service-card-red .read-more {
+    margin-top: 2px;
+  }
+
+  .service-card-red .read-more a {
+    color: #cf3a3a;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 13px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    position: relative;
+  }
+
+  .service-card-red .read-more a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #cf3a3a;
+    transition: width 0.3s ease;
+  }
+
+  .service-card-red .read-more a:hover::after {
+    width: 100%;
+  }
+
+  .service-card-red .read-more a:hover {
+    color: #a82c2c;
+    letter-spacing: 0.5px;
+  }
+
+  /* AOS override for this section */
+  .services-red-bg [data-aos] {
+    transition-duration: 0.7s !important;
+    transition-delay: 0.08s !important;
+  }
+
+  /* Responsive */
+  @media (max-width: 992px) {
+    .services-red-bg {
+      padding: 40px 0 30px;
+    }
+    .services-red-bg .row {
+      --bs-gutter-x: 1.5rem;
+      --bs-gutter-y: 1.5rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .service-card-red {
+      padding: 22px 16px 20px !important;
+    }
+    .service-card-red .title {
+      font-size: 17px;
+    }
+    .service-card-red .description {
+      font-size: 13px;
+    }
+    .services-red-bg {
+      padding: 35px 0 25px;
+    }
+    .services-red-bg .section-title h2 {
+      font-size: 26px;
+    }
+    .services-red-bg .section-title p {
+      font-size: 14px;
+    }
+    .services-red-bg .row {
+      --bs-gutter-x: 1.2rem;
+      --bs-gutter-y: 1.2rem;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .service-card-red {
+      padding: 18px 14px 16px !important;
+    }
+    .service-card-red .icon {
+      width: 55px;
+      height: 55px;
+      font-size: 22px;
+    }
+    .services-red-bg {
+      padding: 30px 0 20px;
+    }
+    .services-red-bg .row {
+      --bs-gutter-x: 1rem;
+      --bs-gutter-y: 1rem;
+    }
+  }
+</style>
+
+   
+<!-- ======= Counts Section (Cards with curved edges, #cf3a3a border, light red bg, red numbers) ======= -->
+<section class="counts section-bg counts-light-red">
+  <div class="container">
+
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up">
+        <div class="count-box count-box-styled">
+          <i class="bi bi-simple-smile"></i>
+          <div class="count-number">
+            <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="1" class="purecounter"></span><span class="plus">+</span>
+          </div>
+          <p>Assurance Services</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
+        <div class="count-box count-box-styled">
+          <i class="bi bi-document-folder"></i>
+          <div class="count-number">
+            <span data-purecounter-start="0" data-purecounter-end="120" data-purecounter-duration="1" class="purecounter"></span><span class="plus">+</span>
+          </div>
+          <p>Cybersecurity Framework Projects</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="400">
+        <div class="count-box count-box-styled">
+          <i class="bi bi-live-support"></i>
+          <div class="count-number">
+            <span data-purecounter-start="0" data-purecounter-end="500" data-purecounter-duration="1" class="purecounter"></span><span class="plus">+</span>
+          </div>
+          <p>Digital Transformation & Information Services</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="600">
+        <div class="count-box count-box-styled">
+          <i class="bi bi-users-alt-5"></i>
+          <div class="count-number">
+            <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1" class="purecounter"></span><span class="plus">+</span>
+          </div>
+          <p>Managed Services</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End Counts Section -->
+
+<!-- ======= Portfolio Section (Events - Light red bg, curved edges, #cf3a3a border) ======= -->
+<section id="portfolio" class="portfolio section-bg portfolio-light-red">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="section-title" data-aos="fade-up">
+      <h2>Events</h2>
+      <p>Empower your business with our cutting-edge cybersecurity services, providing comprehensive protection against evolving digital threats. Explore our success stories below.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <ul id="portfolio-flters">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-app">3x</li>
+          <li data-filter=".filter-card">1x</li>
+          <li data-filter=".filter-web">2x</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row portfolio-container g-4">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="100">
+        <div class="portfolio-wrap portfolio-card-styled">
+          <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid event-img" alt="">
+          <div class="portfolio-info">
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/portfolio-1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-aos="fade-up" data-aos-delay="150">
+        <div class="portfolio-wrap portfolio-card-styled">
+          <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid event-img" alt="">
+          <div class="portfolio-info">
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="200">
+        <div class="portfolio-wrap portfolio-card-styled">
+          <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid event-img" alt="">
+          <div class="portfolio-info">
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-aos="fade-up" data-aos-delay="250">
+        <div class="portfolio-wrap portfolio-card-styled">
+          <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid event-img" alt="">
+          <div class="portfolio-info">
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-aos="fade-up" data-aos-delay="300">
+        <div class="portfolio-wrap portfolio-card-styled">
+          <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid event-img" alt="">
+          <div class="portfolio-info">
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="350">
+        <div class="portfolio-wrap portfolio-card-styled">
+          <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid event-img" alt="">
+          <div class="portfolio-info">
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End Portfolio Section -->  
+
+    </section><!-- End Our Portfolio Section -->
+
+    
+    <!-- ======= Frequently Asked Questions Section (Styled with #cf3a3a brand colors) ======= -->
+<section id="faq" class="faq section-bg faq-brand-styled">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title" data-aos="fade-up">
+      <h2>Frequently Asked Questions</h2>
+      <p>Find answers to the most common questions about our cybersecurity services.</p>
+    </div>
+
+    <div class="row d-flex align-items-stretch">
+      <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="100">
+        <div class="faq-card">
+          <div class="faq-icon">
+            <i class="bi bi-question-circle-fill"></i>
+          </div>
+          <h4>What cybersecurity services do you offer?</h4>
+          <p>We provide a range of services, including vulnerability assessments, penetration testing, incident response, endpoint security, and more.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="150">
+        <div class="faq-card">
+          <div class="faq-icon">
+            <i class="bi bi-question-circle-fill"></i>
+          </div>
+          <h4>How does your team stay updated on the latest threats?</h4>
+          <p>Our experts engage in continuous training, industry conferences, and real-time threat intelligence to stay ahead of evolving cybersecurity challenges.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="200">
+        <div class="faq-card">
+          <div class="faq-icon">
+            <i class="bi bi-question-circle-fill"></i>
+          </div>
+          <h4>What sets your cybersecurity solutions apart?</h4>
+          <p>Our solutions are tailored, innovative, and backed by a proactive approach, ensuring robust protection against emerging digital threats.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="250">
+        <div class="faq-card">
+          <div class="faq-icon">
+            <i class="bi bi-question-circle-fill"></i>
+          </div>
+          <h4>How do you ensure client data confidentiality?</h4>
+          <p>We implement strict data encryption protocols, conduct regular audits, and adhere to industry compliance standards to safeguard client information.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="300">
+        <div class="faq-card">
+          <div class="faq-icon">
+            <i class="bi bi-question-circle-fill"></i>
+          </div>
+          <h4>What is the process for incident response and recovery?</h4>
+          <p>We have a well-defined process involving rapid detection, containment, eradication, recovery, and continuous improvement to minimize the impact of security incidents.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="350">
+        <div class="faq-card">
+          <div class="faq-icon">
+            <i class="bi bi-question-circle-fill"></i>
+          </div>
+          <h4>Do you offer security awareness training for employees?</h4>
+          <p>Yes, we provide comprehensive training programs to educate employees on recognizing and responding to potential cybersecurity threats, reducing the risk of human error.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End Frequently Asked Questions Section -->
+    
+
+    <!-- ======= Contact Us Section ======= -->
+    <!-- ======= Contact Us Section (Brand Styled) ======= -->
+<section id="contact" class="contact contact-brand-styled">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title" data-aos="fade-up">
+      <h2>Contact Us</h2>
+      <p>Reach out to us for unparalleled cybersecurity solutions. Secure your digital future. Complete the form below, and let's fortify together.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
+        <form action="https://formsubmit.co/info@bochsystems.net" method="post" role="form" class="email-form contact-form-styled">
+          <div class="row">
+            <div class="col-lg-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-lg-6 form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="contact-submit-btn">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="row g-4">
+      <div class="col-lg-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+        <div class="info-box info-box-styled">
+          <div class="info-icon">
+            <i class="bx bx-map"></i>
+          </div>
+          <div class="info-content">
+            <h3>Lagos</h3>
+            <p>5, Aba Johnson Crescent, Harmony Enclave, Off Adeniyi Jones <br>Lagos, Nigeria</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 d-flex" data-aos="fade-up" data-aos-delay="150">
+        <div class="info-box info-box-styled">
+          <div class="info-icon">
+            <i class="bx bx-map"></i>
+          </div>
+          <div class="info-content">
+            <h3>Abuja</h3>
+            <p>Plot 94, Gwarinpa 1 Life Camp Extension, Life Camp Abuja</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+        <div class="info-box info-box-styled">
+          <div class="info-icon">
+            <i class="bx bx-map"></i>
+          </div>
+          <div class="info-content">
+            <h3>Ghana</h3>
+            <p>9th Floor Emporium Building, Movenpick Hotel Independence Avenue Accra, Ghana.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 d-flex" data-aos="fade-up" data-aos-delay="250">
+        <div class="info-box info-box-styled">
+          <div class="info-icon">
+            <i class="bx bx-envelope"></i>
+          </div>
+          <div class="info-content">
+            <h3>Email Us</h3>
+            <p>info@bochsystems.net</p>
+          </div>
+        </div>
+        <div class="info-box info-box-styled ms-2">
+          <div class="info-icon">
+            <i class="bx bx-phone-call"></i>
+          </div>
+          <div class="info-content">
+            <h3>Call Us</h3>
+            <p>08021200006 (Nigeria)</p>
+            <p>+233-504957381 (Ghana)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End Contact Us Section -->
+
+
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  
+  <!-- ======= Footer (Brand Styled with Complementary Colors) ======= -->
+<footer id="footer" class="footer-brand-styled">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 footer-info">
+          <h3>Bochsystems</h3>
+          <p>
+            <strong>Phone:</strong> 08021200006<br>
+            <strong>Email:</strong> info@bochsystems.net<br>
+          </p>
+          <div class="social-links mt-3">
+            <a href="https://m.facebook.com/BOCHSYS/" class="facebook" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="https://instagram.com/boch.systems?igshid=YTQwZjQ0NmI0OA==" class="instagram" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/boch-systems-company-limited/" class="linkedin" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="./consultancy.html">Consultancy</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="./vulnerability.html">Vulnerability Assessment</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="./penetration-testing.html">Penetration Testing</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="./response&recovery.html">Incident Response & Recovery</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="./endpoint-security.html">End Point Security</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="./riskcompliance.html">Risk Compliance</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 footer-newsletter">
+          <h4>Our Newsletter</h4>
+          <p>Our newsletter delivers expert insights, latest threat trends, and actionable tips to fortify your digital defenses. Join the community securing a safer digital future.</p>
+          <form action="" method="post" class="newsletter-form">
+            <input type="email" name="email" placeholder="Enter your email">
+            <input type="submit" value="Subscribe">
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span class="brand-text">Bochsystems</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </div>
+</footer><!-- End Footer -->
+
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+   <!-- loader -->
+
+   <div class="loader elementToFadeInAndOut">
+    <div class="loader-inner">
+      <div class="loader-line-wrap">
+        <div class="loader-line"></div>
+      </div>
+      <div class="loader-line-wrap">
+        <div class="loader-line"></div>
+      </div>
+      <div class="loader-line-wrap">
+        <div class="loader-line"></div>
+      </div>
+      <div class="loader-line-wrap">
+        <div class="loader-line"></div>
+      </div>
+      <div class="loader-line-wrap">
+        <div class="loader-line"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="./assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Script for Number Counting Animation -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Animate stats when they come into view
+      const stats = document.querySelectorAll('.stat-number');
+      let animated = false;
+
+      function animateStats() {
+        if (animated) return;
+        
+        stats.forEach(stat => {
+          const target = parseFloat(stat.getAttribute('data-count'));
+          if (target && !isNaN(target)) {
+            const isDecimal = target % 1 !== 0;
+            const duration = 2000;
+            const startTime = performance.now();
+            
+            function updateCounter(currentTime) {
+              const elapsed = currentTime - startTime;
+              const progress = Math.min(elapsed / duration, 1);
+              const current = progress * target;
+              
+              if (isDecimal) {
+                stat.textContent = current.toFixed(1) + '%';
+              } else {
+                stat.textContent = Math.floor(current) + '+';
+              }
+              
+              if (progress < 1) {
+                requestAnimationFrame(updateCounter);
+              } else {
+                if (isDecimal) {
+                  stat.textContent = target.toFixed(1) + '%';
+                } else {
+                  stat.textContent = target + '+';
+                }
+              }
+            }
+            
+            requestAnimationFrame(updateCounter);
+          }
+        });
+        
+        animated = true;
+      }
+
+      // Trigger animation when stats section is visible
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            animateStats();
+          }
+        });
+      }, { threshold: 0.3 });
+
+      const statsSection = document.querySelector('.hero-stats');
+      if (statsSection) {
+        observer.observe(statsSection);
+      }
+
+      // Fallback: animate after 1 second if not triggered by scroll
+      setTimeout(() => {
+        if (!animated) {
+          animateStats();
+        }
+      }, 1000);
+    });
+  </script>
+
+  <script>
+
+const track = document.querySelector(".testimonial-track");
+const cards = document.querySelectorAll(".testimonial-card");
+
+let index = 0;
+
+function slideTestimonials(){
+
+    index++;
+
+    if(index > cards.length - 3){
+
+        index = 0;
+
+    }
+
+    const cardWidth = cards[0].offsetWidth + 30;
+
+    track.style.transform =
+        `translateX(-${index * cardWidth}px)`;
+
+}
+
+setInterval(slideTestimonials,4000);
+
+</script>
+  
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* General Form Styling */
+body {
+    background-color: #f4f4f4;
+}
+
+
+
+.wpcf7-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.wpcf7-form p {
+    margin-bottom: 15px;
+}
+
+/* Input Field Styling */
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="email"],
+.wpcf7-form input[type="tel"],
+.wpcf7-form input[type="file"],
+.wpcf7-form textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #fff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s;
+}
+.wpcf7-form select {
+	width: 99%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #fff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s;
+}
+
+.wpcf7-form input[type="text"]:focus,
+.wpcf7-form input[type="email"]:focus,
+.wpcf7-form input[type="tel"]:focus,
+.wpcf7-form input[type="file"]:focus,
+.wpcf7-form input[type="select"]:focus,
+.wpcf7-form textarea:focus {
+    border-color: #0073aa;
+}
+
+/* Label Styling */
+.wpcf7-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Submit Button Styling */
+.wpcf7-form input[type="submit"] {
+    background-color: #cf3a3a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.wpcf7-form input[type="submit"]:hover {
+    background-color: #ce5252 ;
+}
+
+/* Additional Styling for Cover Letter */
+.wpcf7-form textarea {
+    height: 150px;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+    .wpcf7-form {
+        padding: 15px;
+    }
+}
+
+
+</style>
+<!-- end Simple Custom CSS and JS -->
