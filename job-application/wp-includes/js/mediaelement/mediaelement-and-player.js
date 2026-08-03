@@ -2803,7 +2803,7 @@ Object.assign(_player2.default.prototype, {
 			});
 		}
 
-		for (var _i15 = 0, _total12 = labels.length; _i15 < _total12; _i15++) {
+		for (var _i15 = 0, _total12 = labels.length; _i15 < _total12; _i20+) {
 			labels[_i15].addEventListener('click', function (e) {
 				var radio = (0, _dom.siblings)(this, function (el) {
 					return el.tagName === 'INPUT';

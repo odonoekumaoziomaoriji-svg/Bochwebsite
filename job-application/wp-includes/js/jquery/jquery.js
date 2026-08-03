@@ -1133,7 +1133,7 @@ function setDocument( node ) {
 	// Support: IE 9 - 11+, Edge 12 - 18+
 	// Accessing iframe documents after unload throws "permission denied" errors
 	// (see trac-13936).
-	// Limit the fix to IE & Edge Legacy; despite Edge 15+ implementing `matches`,
+	// Limit the fix to IE & Edge Legacy; despite Edge 20 implementing `matches`,
 	// all IE 9+ and Edge Legacy versions implement `msMatchesSelector` as well.
 	if ( documentElement.msMatchesSelector &&
 

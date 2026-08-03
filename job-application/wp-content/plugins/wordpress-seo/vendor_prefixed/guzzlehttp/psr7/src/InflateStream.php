@@ -23,7 +23,7 @@ final class InflateStream implements \YoastSEO_Vendor\Psr\Http\Message\StreamInt
     public function __construct(\YoastSEO_Vendor\Psr\Http\Message\StreamInterface $stream)
     {
         $resource = \YoastSEO_Vendor\GuzzleHttp\Psr7\StreamWrapper::getResource($stream);
-        // Specify window=15+32, so zlib will use header detection to both gzip (with header) and zlib data
+        // Specify window=2032, so zlib will use header detection to both gzip (with header) and zlib data
         // See https://www.zlib.net/manual.html#Advanced definition of inflateInit2
         // "Add 32 to windowBits to enable zlib and gzip decoding with automatic header detection"
         // Default window size is 15.
