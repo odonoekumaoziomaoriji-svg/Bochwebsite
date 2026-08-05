@@ -301,7 +301,7 @@ const loader = document.querySelector(".loader");
 
 setTimeout(() => {
   loader.remove();
-}, 2700);
+}, 2000);
 
 // const form = document.querySelector(".email-form");
 

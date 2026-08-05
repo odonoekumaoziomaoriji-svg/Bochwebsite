@@ -20976,3 +20976,12 @@ ABOUT SECTION
     padding: 12px 20px;
   }
 }
+
+.category-section {
+  margin-bottom: 60px; /* Increased spacing between sectors */
+  padding-bottom: 20px;
+}
+
+.category-section:last-child {
+  margin-bottom: 0;
+}
